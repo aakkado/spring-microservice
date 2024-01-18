@@ -59,8 +59,8 @@ class ProductServiceApplicationTests {
 
 	private ProductRequest getProductRequest() {
 		return ProductRequest.builder()
-				.name("Iphone 13")
-				.description("Iphone 13")
+				.name("iPhone 13")
+				.description("iPhone 13")
 				.price(BigDecimal.valueOf(900.00))
 				.build();
 	}
